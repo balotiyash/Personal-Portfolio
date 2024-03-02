@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Balotiya</title>
+    <link rel="shortcut icon" type="x-icon" href="laptop-solid-svg.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6884fdea7b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="content">
+        <video id="video-bg" autoplay muted loop>
+            <source src="video5.mp4" type="video/mp4">
+        </video>
+
+        <div id="header">
+            <div class="container" id="navBar">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <div class="bg">
+                        <p><span class="auto-type"></span></p>
+                        <h1>Hi, I'm <span>Yash</span><br>From Mumbai</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!------ about---- -->
+        <div id="ele" class="gg">
+            <div id="about">
+                <div class="container">
+                    <div class="reveal active">
+                        <div class="row">
+                            <div class="about-col-1">
+                                <img src="IMG20231007105424.jpg">
+                            </div>
+                            <div class="about-col-2 glass">
+                                <h1 class="subtitle">About Me</h1>
+                                <p>Hey there! I'm a junior computer engineer with a knack for tech. I dabble in front-end development using HTML, CSS, and JavaScript, cooking up slick and responsive user interfaces. On the code front, I'm fluent in C, C++, Advanced Java, VB.NET, Python, and Kotlin, rocking it in Android development and Jetpack Compose. PHP is my go-to for back-end scripting, and I navigate database systems like PL SQL. I'm all about modern development vibes, using Firebase for smooth data handling. Beyond coding, I'm into data structures, creating efficient algorithms, and my flair for computer graphics spices up my apps. With a side gig in software testing, plus a handle on data communication, computer networks, and operating systems, I'm eager to roll up my sleeves in a pro setup. Open to cool gigs that let me sprinkle my tech magic on innovative projects—let's dive into this tech journey together! 🚀</p>
+
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Full Stack Web Development</span><br>I specialize in Full Stack Web Development, seamlessly combining front-end expertise in HTML, CSS, and JavaScript with back-end proficiency in PHP & Firebase Database, ensuring end-to-end functionality and user experience.</br></li>
+                                        <li><span>Desktop Application Development</span><br>I excel in Desktop Application Development, leveraging my skills in languages like Java and VB.NET to create efficient and user-friendly software solutions for various platforms.</br></li>
+                                        <li><span>Android Application Development</span><br>I specialize in Android Application Development, proficient in Java and Kotlin, and well-versed in the latest technologies like Jetpack Compose to create innovative and user-friendly mobile experiences.</br></li>
+                                        <li><span>UI/UX Designing</span><br>Exploring UI/UX design essentials with a foundation in design principles, wireframing, and user research. Eager to learn and grow in the field!</br></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="experience">
+                                    <ul>
+                                        <li><span>2023</span><br><b>VES Polytechnic</b><br>Successfully developed a user-friendly, interactive full-stack online examination portal using HTML, CSS, JavaScript, and PHP for VES Polytechnic College, addressing their specific needs and facilitating efficient online MCQ-based class tests.</br></li>
+                                        <li><span>2023</span><br><b>Mobond Software Consultancy Services - @m-Indicator</b><br>Developed a comprehensive college administrative app for 'VES Polytechnic' college using Kotlin and Jetpack Compose, enhancing student's & teacher's experience.</br></li>
+                                        <li><span>2023</span><br><b>DJGSONYYYYY</b><br>Crafted an interactive, modern UI webpage for a Disk-Jockey, elevating his business presence with a visually appealing and user-friendly online platform.</br></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span>2026</span><br><b>B.Sc. in Information Technology</b><i> ~ Mumbai University (MU)</i></br></li>
+                                        <li><span>2024</span><br><b>Diploma in Computer Engineering</b><i> ~ Maharashtra State Board of Technical Education (MSBTE)</i></br></li>
+                                        <li><span>2022</span><br><b>HSC in Technical Science</b><i> ~ Maharashtra State Board of Secondary & Higher Secondary Education (MSBSHSE)</i><br></li>
+                                        <li><span>2020</span><br><b>I.T.I. in Electrical Engineering</b><i> ~ National Council for Vocational Training (NCVT)</i></br></li>
+                                        <li><span>2018</span><br><b>Secondary School Certification</b><i>Maharashtra State Board of Secondary & Higher Secondary Education (MSBSHSE)</i></br></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------ services---- -->
+            <div id="services">
+                <div class="container">
+                    <div class="reveal active">
+                        <h1 class="subtitle">My Services</h1>
+                        <div class="services-list">
+                            <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Full-Stack Websites</h2>
+                                <p>I specialize in creating dynamic websites with captivating designs and seamless functionality. From front-end brilliance to efficient back-end scripting, I'm here to bring your digital vision to life. Let's collaborate and craft something extraordinary together.</p>
+                                <!-- <a href="#">Learn more</a> -->
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-crop-simple"></i>
+                                <h2>Desktop Applications</h2>
+                                <p>I excel in developing efficient desktop applications using C, C++, VB.NET, Java, and Python. Let's team up to transform your concepts into seamless, productivity-boosting solutions that fit your exact needs. Ready to elevate your desktop experience? Let's make it happen together.</p>
+                                <!-- <a href="#">Learn more</a> -->
+                            </div>
+                            <div>
+                                <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                                <i class="fa-brands fa-google-play"></i>
+                                <h2>Android Applications</h2>
+                                <p>I specialize in crafting immersive Android applications that engage users and elevate their mobile experience. I create sleek and dynamic apps tailored to your specifications. Let's collaborate to bring your ideas to life and make a splash in the digital realm.</p>
+                                <!-- <a href="#">Learn more</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ portfolio---- -->
+            <div id="portfolio">
+                <div class="container">
+                    <div class="reveal  active">
+                        <h1 class="subtitle">My Work</h1>
+                        <div class="work-list">
+                            <i id="left" class="fa-solid fa-angle-left"></i>
+                            <ul class="carousel">
+                                
+                                <li class="work">
+                                    <!-- <img src="work-2.png" draggable="false"> -->
+                                    <img src="VESP App.png" alt="" draggable="false">
+                                    <div class="layer">
+                                        <h3>VES Polytechnic App</h3>
+                                        <p>This college app streamlines student life with timetables, notifications, and attendance tracking. Staff can manage attendance seamlessly, synced with Excel via Firebase. Built with Kotlin and Jetpack Compose, our app delivers a sleek, user-friendly experience reflecting our college's ethos.</p>
+                                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </li>
+                                
+                                <li class="work">
+                                    <!-- <img src="nathan-dumlao-kLmt1mpGJVg-unsplash (1).jpg" draggable="false"> -->
+                                    <img src="VESP OEP.png" alt="" draggable="false">
+                                    <div class="layer">
+                                        <h3>VESP - Online Examination Portal</h3>
+                                        <p>This online examination system offers students, staff, and administrators a user-friendly platform for seamless exam management. Students can easily access exams, while staff can effortlessly create and oversee them. Administrators ensure smooth operations, guaranteeing a secure and efficient examination process.</p>
+                                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </li>
+
+                                <li class="work">
+                                    <!-- <img src="work-1.png" draggable="false"> -->
+                                    <img src="djganesh.png" alt="" draggable="false">
+                                    <div class="layer">
+                                        <h3>DJGANESH</h3>
+                                        <p>Crafted with creativity and expertise, this dynamic personal portfolio website caters specifically to DJs, elevating their online presence and showcasing their unique style. With a sleek interface and seamless navigation, this platform serves as a powerful tool for promoting DJ services and engaging with the audience.</p>
+                                        <a href="http://www.djgsonyyyyy.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </li>
+
+                                <li class="work">
+                                    <!-- <img src="sara-kurfess-6lcT2kRPvnI-unsplash (1).jpg" draggable="false"> -->
+                                    <img src="OVS.png" alt="" draggable="false">
+                                    <div class="layer">
+                                        <h3>Online Voting System</h3>
+                                        <p>This online voting system provides a convenient and secure platform for conducting elections and gathering feedback. With user-friendly interfaces for voters and administrators, the system ensures smooth and transparent voting processes. Built with robust security measures, it safeguards the integrity of the voting process while offering flexibility and accessibility to all participants.</p>
+                                        <a href="https://github.com/balotiyash/OnlineVotingSystem-OVS/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </li>
+
+                                <li class="work">
+                                    <!-- <img src="daniel-korpai-aUmq85-2V7I-unsplash (1).jpg" draggable="false"> -->
+                                    <img src="Blood Bank.png" alt="" draggable="false">
+                                    <div class="layer">
+                                        <h3>Blood Bank Management System</h3>
+                                        <p>This blood bank management system simplifies the process of blood donation, storage, and distribution. With user-friendly interfaces for donors and administrators, it ensures efficient management of blood inventory and transfusion requests, ultimately aiding in life-saving efforts.</p>
+                                        <a href="javascript: alert('This information is Confidential.')"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <i id="right" class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!------ contact---- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="reveal  active">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="subtitle">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>balotiyash@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i>+91 9920780823</p>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/balotiyash" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/balotiyash" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100004170767093" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/bella_ciao_adios/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <a href="Yash_CV Detailed 17-09-2023.pdf" download class="btn btn1">Download CV</a>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="number" name="Phone" placeholder="Your Phone Number" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                                    <button type="submit" class="btn btn2" id="submitBtn">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yash. Designing the future, one pixel at a time<i class="fa-solid fa-code"></i></p>
+    </div>
+    
+    <script src="script.js" defer></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Web Developer","Desktop App Developer","Android Developer", "UI/UX Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+
+        });
+    </script>
+</body>
+</html>
